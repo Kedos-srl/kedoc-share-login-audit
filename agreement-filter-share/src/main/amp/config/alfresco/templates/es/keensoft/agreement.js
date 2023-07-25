@@ -1,5 +1,7 @@
 function main()
 {
+  console.log("ENTRO IN AGREEMENT.JS, ho già fatto il login ?");
+
    var result = remote.connect("alfresco-noauth").get("/keensoft/agreement-page");
    if (result.status == 200) {
 	   
